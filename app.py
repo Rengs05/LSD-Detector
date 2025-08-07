@@ -8,7 +8,7 @@ import os
 # Load Model
 @st.cache_resource
 def load_lsd_model():
-    model = load_model("model_lsd_mobilenetv2.h5")
+    model = load_model("skin/model_lsd_mobilenetv2.h5")
     return model
 
 model = load_lsd_model()
